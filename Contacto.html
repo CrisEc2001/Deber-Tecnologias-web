@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Cristian Méndez</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylessheet.css">
+</head>
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="Photos/logo1.png" alt="Logo" width="350" height="100" class="d-inline-block align-text-top">
+                
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">HTML</a></li>
+                    <li class="nav-item"><a class="nav-link" href="CSS.html">CSS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="JAVASCRIPT.html">JavaScript</a></li>
+                    <li class="nav-item"><a class="nav-link" href="VENTAJASYAPLICACIONES.html">Ventajas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="COMPARATIVA.html">Comparativa</a></li>
+                    <li class="nav-item"><a class="nav-link btn btn-warning text-dark ms-lg-2 active" href="Contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-warning py-5 mb-4 shadow-sm text-dark">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold">Ponte en Contacto</h1>
+            <p class="lead">¿Tienes preguntas sobre el desarrollo web? Estoy aquí para ayudar.</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <aside class="col-lg-3 mb-4">
+                <div class="card shadow-sm border-0">
+                    <div class="card-header bg-primary text-white text-center">
+                        <h2 class="h5 mb-0">Navegación</h2>
+                    </div>
+                    <div class="list-group list-group-flush text-center">
+                        <a href="index.html" class="list-group-item list-group-item-action">HTML</a>
+                        <a href="CSS.html" class="list-group-item list-group-item-action">CSS</a>
+                        <a href="JAVASCRIPT.html" class="list-group-item list-group-item-action">JAVASCRIPT</a>
+                        <a href="VENTAJASYAPLICACIONES.html" class="list-group-item list-group-item-action">Ventajas y Aplicaciones</a>
+                        <a href="COMPARATIVA.html" class="list-group-item list-group-item-action">COMPARATIVA</a>
+                    </div>
+                </div>
+            </aside>
+
+            <main class="col-lg-9">
+                <article class="card p-4 shadow-sm border-0">
+                    <h2 class="text-primary border-bottom pb-3 mb-4">Formulario de Contacto</h2>
+
+                    <form action="https://formspree.io/f/xwpdpllq" method="post" class="needs-validation">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="nombre" class="form-label fw-bold">Nombres Completos:</label>
+                                <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Juan Pérez" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="email" class="form-label fw-bold">Correo Electrónico:</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="nombre@correo.com" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="asunto" class="form-label fw-bold">Asunto:</label>
+                                <input type="text" class="form-control" id="asunto" name="asunto" placeholder="Motivo de contacto" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="telefono" class="form-label fw-bold">Teléfono:</label>
+                                <input type="tel" class="form-control" id="telefono" name="telefono" placeholder="+593 99 999 9999">
+                            </div>
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="mensaje" class="form-label fw-bold">Mensaje:</label>
+                            <textarea id="mensaje" name="mensaje" class="form-control" rows="5" placeholder="Escribe tu consulta aquí..." required></textarea>
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg shadow-sm">
+                                <i class="bi bi-send-fill me-2"></i> Enviar Mensaje
+                            </button>
+                        </div>
+                    </form>
+                </article>
+            </main>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white py-4 mt-5 border-top border-warning border-4">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2026 Cristian Méndez. UTPL - Ingeniería de TI.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

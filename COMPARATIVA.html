@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMPARATIVA - Cristian Méndez</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylessheet.css">
+</head>
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="Photos/logo1.png" alt="Logo" width="350" height="100" class="d-inline-block align-text-top">
+                
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">HTML</a></li>
+                    <li class="nav-item"><a class="nav-link" href="CSS.html">CSS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="JAVASCRIPT.html">JavaScript</a></li>
+                    <li class="nav-item"><a class="nav-link" href="VENTAJASYAPLICACIONES.html">Ventajas</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="COMPARATIVA.html">Comparativa</a></li>
+                    <li class="nav-item"><a class="nav-link btn btn-warning text-dark ms-lg-2" href="Contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-dark text-white py-5 mb-4 shadow">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold">Comparativa de Tecnologías Web</h1>
+            <p class="lead text-secondary">Estructura, Estilo e Interactividad</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <aside class="col-lg-3 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-header bg-primary text-white text-center">
+                        <h2 class="h5 mb-0">Menú de contenidos</h2>
+                    </div>
+                    <div class="list-group list-group-flush">
+                        <a href="index.html" class="list-group-item list-group-item-action">HTML</a>
+                        <a href="CSS.html" class="list-group-item list-group-item-action">CSS</a>
+                        <a href="JAVASCRIPT.html" class="list-group-item list-group-item-action">JAVASCRIPT</a>
+                        <a href="VENTAJASYAPLICACIONES.html" class="list-group-item list-group-item-action">Ventajas y Aplicaciones</a>
+                        <a href="Contacto.html" class="list-group-item list-group-item-action">Contacto</a>
+                    </div>
+                </div>
+            </aside>
+
+            <main class="col-lg-9">
+                <section class="card p-4 shadow-sm mb-4">
+                    <h2 class="text-primary border-bottom pb-2 mb-4">HTML vs CSS vs JavaScript</h2>
+                    
+                    <div class="table-responsive">
+                        <table class="table table-striped table-hover table-bordered align-middle">
+                            <thead class="table-dark text-center">
+                                <tr>
+                                    <th>Característica</th>
+                                    <th>HTML</th>
+                                    <th>CSS</th>
+                                    <th>JavaScript</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="fw-bold">Definición</td>
+                                    <td>Marcado para estructurar contenido.</td>
+                                    <td>Hojas de estilo para diseño visual.</td>
+                                    <td>Programación para interactividad.</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw-bold">Función Principal</td>
+                                    <td>Definir la estructura de la página.</td>
+                                    <td>Controlar colores, fuentes y disposición.</td>
+                                    <td>Responder a eventos del usuario.</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw-bold">Tipo</td>
+                                    <td>Declarativo (Etiquetas).</td>
+                                    <td>Reglas de Estilo.</td>
+                                    <td>Lógica (Scripting).</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <section class="card p-4 shadow-sm mb-4">
+                    <h2 class="text-primary border-bottom pb-2 mb-4">Etiquetas Semánticas Clave</h2>
+                                       
+                    <div class="table-responsive mt-3">
+                        <table class="table table-hover border">
+                            <thead class="bg-light">
+                                <tr class="table-primary text-center">
+                                    <th>Etiqueta</th>
+                                    <th>Descripción de uso</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td><code>&lt;article&gt;</code></td><td>Contenido independiente (posts, noticias).</td></tr>
+                                <tr><td><code>&lt;nav&gt;</code></td><td>Bloque de enlaces de navegación.</td></tr>
+                                <tr><td><code>&lt;header&gt;</code></td><td>Encabezado de página o sección.</td></tr>
+                                <tr><td><code>&lt;footer&gt;</code></td><td>Pie de página o cierre de sección.</td></tr>
+                                <tr><td><code>&lt;main&gt;</code></td><td>Contenido principal y único del documento.</td></tr>
+                                <tr><td><code>&lt;aside&gt;</code></td><td>Contenido relacionado de forma indirecta (sidebar).</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <div class="alert alert-info shadow-sm" role="alert">
+                    <h4 class="alert-heading fw-bold">Conclusión</h4>
+                    <p class="mb-0">HTML, CSS y JavaScript son lenguajes complementarios. Mientras <strong>HTML</strong> proporciona el esqueleto, <strong>CSS</strong> añade la piel y el estilo, y <strong>JavaScript</strong> le otorga movimiento y vida al sitio.</p>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2025 Cristian Méndez. UTPL - Ingeniería de TI.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
